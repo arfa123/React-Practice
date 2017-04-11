@@ -1,0 +1,35 @@
+.heading{
+    text-align: center;
+    font-size: 2em
+}
+.input{
+    text-align: center;
+}
+.list{
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid red;
+    margin-top: 10px;
+    overflow: scroll;
+}
+.list li{
+    list-style-type: decimal-leading-zero;
+    font-size: 1.5em;
+    border-bottom: 1px solid black;
+    margin: 5px;
+}
+.list button{
+    float: right;
+}
+.removeAll{
+    text-align: center;
+    margin-top: 10px;
+}
+.removeAll button{
+    background: none;
+    border: 1px solid blue;
+    font-size: 1.25em;
+    padding: 5px;
+    
+}
